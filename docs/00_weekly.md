@@ -6,8 +6,14 @@ Completed Ubuntu virtual machine setup, practiced basic terminal commands like p
 
 Completed ROS2 Humble installation and environment configuration, learned beginner CLI tools including node, topic and service operations, practiced turtle simulation and rqt tool usage, and successfully ran the Talker-Listener communication example to verify node publishing and subscription functions.
 
-**week4:**
+**week3:**
+
+6.30
 
 1. workspace：overlay 就是您自己创建的工作区（如 ~/ros2_ws），它会被添加到系统 ROS 2（underlay）的路径前面，所以优先级更高——在 overlay 中修改的任何包都会覆盖系统的原始版本。
 
-2. pkg: 就是 ROS 2 代码的组织单元像文件夹，
+2. pkg: 就是 ROS 2 代码的组织单元像文件夹
+
+7.1
+
+1.理解了差速底盘运动学（左右轮差速转弯），知道了 /cmd_vel 是速度控制话题，成功发布了第一条 ROS2 速度指令
